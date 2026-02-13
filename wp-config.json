@@ -1,0 +1,16 @@
+{
+  "landingPage": "/",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "importWxr",
+      "file": "/public/site.wpress"
+    }
+  ]
+}
