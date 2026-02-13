@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WooCommerce Demo</title>
+  <style>
+    body { margin:0; font-family:system-ui; }
+    .loader {
+      position:fixed; inset:0;
+      display:flex; align-items:center; justify-content:center;
+      background:#111; color:white; font-size:22px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="loader">Loading WordPress… first load takes ~30s</div>
+
+<script>
+location.href =
+"https://playground.wordpress.net/?import=./site.wpress";
+</script>
+</body>
+</html>
