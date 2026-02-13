@@ -1,0 +1,16 @@
+app.yaml
+kind: wasmer.io/App.v0
+name: store
+
+owner: rahilkzi
+
+package: .
+
+modules:
+  - name: wordpress
+    runtime: wasmer/wordpress-playground
+    config: wp-config.json
+
+  - name: static
+    runtime: wasmer/static-web-server
+    mount: public
